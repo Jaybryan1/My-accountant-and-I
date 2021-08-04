@@ -1,1 +1,0 @@
-# My-accountant-and-I
