@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #800080;
+}
+.hero{
+	width: 100%;
+	margin: auto;
+}
+.navbar{
+	margin: 50px auto;
+	display: flex;
+	align-items: center;
+}
+ul{
+	flex: 1;
+	text-align: right;
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 25px;
+}
+ul li a{
+	text-decoration: none;
+	color: #8  00;
+	Padding: 0 10px;
+	position: relative;
+}
+ul li a::after{
+	content:  '';
+	width: 100%;
+	height: 10px;
+	background: #800080;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -55px;
+	transition: 0.5s;
+}
+ul li a:hover::after{
+	width: 100%;
+}
+.navbar-icons img{
+	height: 25px;
+	margin-right:  40px;
+	cursor: pointer;
+}
+.navbar-icon{
+	margin-left: 40px;
+}
+.banner{
+	display: inline;
+	margin-top: 100px;
+}
+.banner1{
+	display: inline;
+	margin-top: 80px;
+}
+.banner2{
+	display: inline;
+	margin-top: 30px;
+}
+.contact{
+	text-align: centre;
+	margin-top: 80px;
+}
+.banner0{
+	margin-top: 30px;
+	opacity: 80%;
+	max-width: 50%;
+	right: 6px;
+	height: auto;
+}
+.left-column,.right-column{
+	flex basis: 50%;
+}
+.right-column img{
+	width: 100%;
+}
+.end{
+	text-align: right;
+}
+.search-box{
+	width: 75%;
+	display: flex;
+	padding-bottom: 3px;
+	border-bottom:  1px solid #ddd;
+	margin: 10px 0 30px;
+}
+.search-box img{
+	height: 25px;
+	width:  25px;
+	cusor: pointer;
+}
+.search-box input{
+	width: 100%;
+	margin-left: 15px;
+	font-size: 17px;
+	border: 0;
+	outline: none;
+}
+.services{
+	width: 35%;
+	margin: auto;
+	margin-top: 50;
+
+}
+.us{
+	width: 35%;
+	margin: auto;
+	margin-top: 50;
+
+}
+.body1{
+	text-align: center;
+}
+.form{
+	margin-top:  50px;
+	transition:  all 4s ease-in-out;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	font-size: 18px;
+	color:  #800080;
+	margin-bottom: 16px;
+}
+input
+{
+	height:  45px;
+}
+form .submit{
+	background: #800080;
+	border-color:  transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
